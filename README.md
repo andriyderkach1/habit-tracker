@@ -23,6 +23,8 @@ A web application for tracking daily habits: add new habits, mark them as comple
 
 Hosted on GitHub Pages: **https://andriyderkach1.github.io/habit-tracker/**
 
-## Contact
+## Author
 
-Telegram: **https://t.me/derkachandrey**
+Andriy Derkach  
+Group: КV-22  
+Telegram: [@derkachandrey](https://t.me/derkachandrey)
