@@ -21,8 +21,8 @@ A web application for tracking daily habits: add new habits, mark them as comple
 
 ## Deployment
 
-Hosted on GitHub Pages: **asdf.com**
+Hosted on GitHub Pages: **https://andriyderkach1.github.io/habit-tracker/**
 
 ## Contact
 
-Telegram: **@asdf**
+Telegram: **https://t.me/derkachandrey**
