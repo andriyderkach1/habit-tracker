@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manage Habits - Habit Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="bg-light p-3 shadow">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">HABIT TRACKER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 bg-white p-4 rounded shadow">
+        <h2 class="text-center fw-bold mb-4">Manage Habits</h2>
+        <form>
+          <div class="mb-3">
+            <label for="habitName" class="form-label">Habit Name</label>
+            <input type="text" class="form-control" id="habitName" placeholder="Enter habit" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Add Habit</button>
+        </form>
+        <h3 class="text-center fw-bold mt-4">Today's Habits</h3>
+        <ul class="list-group mt-3">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Drink Water
+            <div>
+              <button class="btn btn-success btn-sm me-2">Completed</button>
+              <button class="btn btn-secondary btn-sm">Reset</button>
+            </div>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Read Book
+            <div>
+              <button class="btn btn-success btn-sm me-2">Completed</button>
+              <button class="btn btn-secondary btn-sm">Reset</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>HABIT TRACKER © 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
