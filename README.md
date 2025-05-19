@@ -23,6 +23,10 @@ A web application for tracking daily habits: add new habits, mark them as comple
 
 Hosted on GitHub Pages: **https://andriyderkach1.github.io/habit-tracker/**
 
+## Report
+
+📄 [View lab report (Google Drive)](https://drive.google.com/file/d/1DQz_NCMejAZVIpXS93hifuW1OFEYy7xv/view?usp=sharing)
+
 ## Author
 
 Andriy Derkach  
